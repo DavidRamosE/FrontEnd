@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Copucake</title>
+</head>
+<body>
+    <img src="./Pasteleria Copucake.png" alt="Logo Pasteleria" width="150px">
+    <h1>Pasteleria Copucake <br> Bienvenidos</h1><br>
+    <h2>Realicemos tu pedido</h2>
+    <form action="pedido.js">
+        <label for="Nombre">Nombre del Solicitante</label><br>
+        <input type="text" id="Nombre" placeholder="Nombre"><br>
+        <label for="Correo">Correo electronico</label><br>
+        <input type="email" id="Correo" placeholder="Correo"><br>
+        <label for="Telefono">Numero Telefonico de Contacto</label><br>
+        <input type="tel" id="Telefono" placeholder="Telefono"><br>
+    <h2>¿De qué tamaño sera tu pastel?</h2>
+        <input type="radio" id="Individual" name="Tamaño" value="Individual">
+        <label for="Individual">Individual</label><br>
+        <input type="radio" id="Mediano" name="Tamaño" value="Mediano">
+        <label for="Mediano">5 Personas</label><br>
+        <input type="radio" id="Grande" name="Tamaño" value="Grande">
+        <label for="Grande">15 Personas</label><br><br>
+    <h2>¿De que sabor sera tu pastel? <br></h2> 
+    <h3>Pasteles de un solo sabor</h3>
+    
+        <input type="radio" id="Chocolate" name="Sabor" value="Chocolate">
+        <label for="Chocolate">Chocolate</label><br>
+
+        <input type="radio" id="Vainilla" name="Sabor" value="Vainilla">
+        <label for="Vainilla">Vainilla</label><br>
+
+        <input type="radio" id="Fresa" name="Sabor" value="Fresa">
+        <label for="Fresa">Fresa</label><br>
+
+        <input type="radio" id="RedV" name="Sabor" value="RedV>
+        <label for="RedV"> Red Velvet</label><br>
+
+        <input type="radio" id="Naranja" name="Sabor" value="Naranja">
+        <label for="Naranja">Naranja</label><br>
+
+    <h3>Sabores Combinados</h3>
+
+        <input type="radio" id="ChVa" name="Sabor" value="ChVa">
+        <label for="ChVa">Chocolate y Vainilla</label><br>
+
+        <input type="radio" id="ChFr" name="Sabor" value="ChFr">
+        <label for="ChFr">Chocolate y Fresa</label><br>
+
+        <input type="radio" id="ChRe" name="Sabor" value="ChRe">
+        <label for="ChRe">Chocolate y Red Velvet</label><br>
+
+        <input type="radio" id="ChNa" name="Sabor" value="ChNa">
+        <label for="ChNa">Chocolate y Naranja</label><br>
+
+        <input type="radio" id=" VaFr" name="Sabor" value="VaFr">
+        <label for="VaFr">Vainilla y Fresa</label><br>
+
+        <input type="radio" id="VaRe" name="Sabor" value="VaRe">
+        <label for="VaRe">Vainilla y Red Velvet</label><br>
+
+        <input type="radio" id="VaNa" name="Sabor" value="VaNa">
+        <label for="VaNa">Vainilla y Naranja</label><br>
+
+        <input type="radio" id="FrRe" name="Sabor" value="FrRe">
+        <label for="FrRe">Fresa y Red Velvet</label><br>
+
+        <input type="radio" id="FrNa" name="Sabor" value="FrNa">
+        <label for="FrNa">Fresa y Naranja</label><br>
+
+        <input type="radio" id="ReNa" name="Sabor" value="ReNa">
+        <label for="ReNa">Red Velvet y Naranja</label><br>
+    
+    <h2>Puedes agregar algunos complementos </h2>
+
+        <input type="checkbox" id="Frutas" name="Fruta" value="Frutas">
+        <label for="Frutas">Fruta de Temporada</label><br>
+
+        <input type="checkbox" id="Rollos" name="Rollos" value="Rollos">
+        <label for="Rollos">Rollos de Chocolate</label><br>
+
+        <input type="checkbox" id="Macarones" name="Macarones" value="Macarones">
+        <label for="Macarones">Macarones</label><br>
+
+        <input type="checkbox" id="Kinder" name="Kinder" value="Kinder">
+        <label for="Kinder">Chocolates Kinder</label><br>
+
+    <h2>Fecha de Entrega</h2>
+    <h3>Los pedidos se pueden solicitar con 3 dias de Anticipacion</h3>
+        <input type="date" id="Entrega" name="Entrega"><br><br>
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+    
+
+
+    </form>
+    
+
+    
+</body> 
